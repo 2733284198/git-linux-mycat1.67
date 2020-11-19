@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+
+	<schema name="mycat_testdb" checkSQLschema="false" sqlMaxLimit="100">
+		<table name="t1" primaryKey="id"  dataNode="dn1" />
+		
+		<table name="tt1" primaryKey="id"  dataNode="dn11" />
+		<table name="tt2" primaryKey="id"  dataNode="dn12" />
+		<table name="tt3" primaryKey="id"  dataNode="dn13" />
+
+
+		<table name="t21" primaryKey="id"  dataNode="dn21" />
+		<table name="t22" primaryKey="id"  dataNode="dn22" />
+		<table name="t23" primaryKey="id"  dataNode="dn23" />
+			
+		<!-- 88.12 -->
+
+		<table name="tt21" primaryKey="id"  dataNode="dn121" />
+		<table name="tt22" primaryKey="id"  dataNode="dn122" />
+		<table name="tt23" primaryKey="id"  dataNode="dn123" />
+	</schema>
+
+	<dataNode name="dn1" dataHost="localhost1" database="dbmaster" />
+
+	<dataNode name="dn11" dataHost="localhost11" database="dbmaster1" />
+	<dataNode name="dn12" dataHost="localhost12" database="dbmaster2" />
+        <dataNode name="dn13" dataHost="localhost13" database="dbmaster3" />
+
+	<!-- 88.13 -->
+	<dataNode name="dn21" dataHost="localhost23" database="dbmaster21" />
+	<dataNode name="dn22" dataHost="localhost23" database="dbmaster22" />
+	<dataNode name="dn23" dataHost="localhost23" database="dbmaster23" />
+
+	<!-- 88.12 -->
+	<dataNode name="dn121" dataHost="localhost123" database="dbmaster21" />
+	<dataNode name="dn122" dataHost="localhost123" database="dbmaster22" />
+	<dataNode name="dn123" dataHost="localhost123" database="dbmaster23" />
+	
+	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.11:3306" user="root" password="134">
+			<!-- can have multi read hosts -->
+			<readHost host="hostS2" url="192.168.88.12:3306" user="root" password="134" />
+			<readHost host="hostS3" url="192.168.88.13:3306" user="root" password="134" />
+		 </writeHost>
+	</dataHost>
+	
+	<!-- localhost11 -->
+
+	<dataHost name="localhost11" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.11:3306" user="root" password="134">
+			
+		 </writeHost>
+	</dataHost>
+
+	<dataHost name="localhost12" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.11:3306" user="root" password="134">
+			<!-- can have multi read hosts -->
+			
+		 </writeHost>
+	</dataHost>
+
+	<dataHost name="localhost13" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.11:3306" user="root" password="134">
+			<!-- can have multi read hosts -->
+			
+		 </writeHost>
+	</dataHost>
+	
+	<!-- localhost11 -->
+
+	<!-- localhost23 -->
+
+	<dataHost name="localhost23" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.13:3306" user="root" password="134">
+			
+		 </writeHost>
+		
+	</dataHost>
+	<!-- localhost21 -->
+
+	<!-- localhost12-1=3 -->
+
+	<dataHost name="localhost123" maxCon="1000" minCon="10" balance="3"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.12:3306" user="root" password="134">
+			
+		 </writeHost>
+		
+	</dataHost>
+	<!-- localhost21 -->
+
+	
+</mycat:schema>

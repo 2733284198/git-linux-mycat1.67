@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:server SYSTEM "server.dtd">
+<mycat:server xmlns:mycat="http://io.mycat/">
+    <system>
+	<property name="nonePasswordLogin">0</property> 
+<!-- 0为需要密码登陆、1为不需要密码登陆 ,默认为0，设置为1则需要指定默认账户-->
+	<property name="sequnceHandlerType">0</property>
+	 <property name="useSqlStat">1</property>  <!-- 1为开启实时统计、0为关闭 -->
+	<property name="sqlInterceptor">
+			io.mycat.server.interceptor.impl.StatisticsSqlInterceptor
+	</property>
+	<property name="sqlInterceptorType">
+		UPDATE,DELETE,INSERT
+	</property>
+	<property name="sqlInterceptorFile">/home/mha/mysql/mycat/Mycat1.67/sqllog/mycatsql.txt</property>
+
+	</system>
+	
+	<user name="root" defaultAccount="true">
+		<property name="password">123456</property>
+		<property name="schemas">mycat_testdb</property>
+	</user>
+
+	<user name="user">
+		<property name="password">user</property>
+		<property name="schemas">mycat_testdb</property>
+		<property name="readOnly">true</property>
+	</user>
+</mycat:server>

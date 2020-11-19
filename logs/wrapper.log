@@ -1,0 +1,439 @@
+STATUS | wrapper  | 2020/11/19 12:03:58 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:04:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:04:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:04:01 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:04:01 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:04:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:04:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:04:01 | 
+INFO   | jvm 1    | 2020/11/19 12:04:02 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:09:27 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:09:28 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:09:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:09:29 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:09:30 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:09:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:09:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 
+INFO   | jvm 1    | 2020/11/19 12:09:30 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:09:30 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at java.lang.reflect.Method.invoke(Method.java:498)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at java.lang.Thread.run(Thread.java:748)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | Caused by: io.mycat.config.util.ConfigException: java.lang.NumberFormatException: For input string: "a"
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:121)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	... 7 more
+INFO   | jvm 1    | 2020/11/19 12:09:30 | Caused by: java.lang.NumberFormatException: For input string: "a"
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.util.SplitUtil.split(SplitUtil.java:232)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.util.SplitUtil.split(SplitUtil.java:263)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.util.SplitUtil.split(SplitUtil.java:252)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadDataNodes(XMLSchemaLoader.java:604)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:115)
+INFO   | jvm 1    | 2020/11/19 12:09:30 | 	... 13 more
+STATUS | wrapper  | 2020/11/19 12:09:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:09:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:09:50 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:09:50 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:09:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:09:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:09:50 | 
+INFO   | jvm 1    | 2020/11/19 12:09:51 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:09:53 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:09:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:11:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:11:11 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:11:11 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:11:11 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:11:11 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 
+INFO   | jvm 1    | 2020/11/19 12:11:11 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:11:11 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at java.lang.reflect.Method.invoke(Method.java:498)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at java.lang.Thread.run(Thread.java:748)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | Caused by: io.mycat.config.util.ConfigException: dataNode dn2 duplicated!
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.createDataNode(XMLSchemaLoader.java:655)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadDataNodes(XMLSchemaLoader.java:623)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:115)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2020/11/19 12:11:11 | 	... 7 more
+STATUS | wrapper  | 2020/11/19 12:11:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:12:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:12:02 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:12:03 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:12:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:12:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:12:03 | 
+INFO   | jvm 1    | 2020/11/19 12:12:04 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:13:55 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:13:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:13:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:13:58 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:13:58 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:13:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:13:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:13:58 | 
+INFO   | jvm 1    | 2020/11/19 12:13:59 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:15:37 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:15:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:15:39 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:15:40 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:15:40 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:15:40 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:15:40 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 
+INFO   | jvm 1    | 2020/11/19 12:15:40 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:15:40 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at java.lang.reflect.Method.invoke(Method.java:498)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at java.lang.Thread.run(Thread.java:748)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | Caused by: io.mycat.config.util.ConfigException: dataNode 'dn1,dn2,dn3' is not found!
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.checkDataNodeExists(XMLSchemaLoader.java:538)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadSchemas(XMLSchemaLoader.java:161)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:117)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2020/11/19 12:15:40 | 	... 7 more
+STATUS | wrapper  | 2020/11/19 12:15:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:15:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:15:55 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:15:55 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:15:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:15:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:15:55 | 
+INFO   | jvm 1    | 2020/11/19 12:15:56 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:17:03 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:17:04 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:17:05 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:17:05 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:17:05 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:17:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:17:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:17:05 | 
+INFO   | jvm 1    | 2020/11/19 12:17:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:47:43 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:47:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:47:45 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:47:45 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:47:45 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:47:45 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:47:45 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:47:45 | 
+INFO   | jvm 1    | 2020/11/19 12:47:47 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 12:50:13 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 12:50:14 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 12:50:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 12:50:15 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 12:50:15 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 12:50:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 12:50:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 12:50:16 | 
+INFO   | jvm 1    | 2020/11/19 12:50:17 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:00:22 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:00:23 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:00:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:00:24 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:00:24 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:00:25 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:00:25 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:00:25 | 
+INFO   | jvm 1    | 2020/11/19 13:00:26 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:02:18 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:02:19 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:02:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:02:20 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:02:20 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:02:21 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:02:21 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:02:21 | 
+INFO   | jvm 1    | 2020/11/19 13:02:22 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:06:02 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:06:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:06:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:06:04 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:06:04 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:06:04 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:06:04 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:06:04 | 
+INFO   | jvm 1    | 2020/11/19 13:06:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:08:58 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:09:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:09:04 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/11/19 13:09:05 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:09:05 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:09:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:09:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:09:05 | 
+INFO   | jvm 1    | 2020/11/19 13:09:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:14:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:14:30 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:14:30 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:14:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:14:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:14:31 | 
+INFO   | jvm 1    | 2020/11/19 13:14:33 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:17:02 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:17:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:17:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:17:04 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:17:05 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:17:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:17:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 
+INFO   | jvm 1    | 2020/11/19 13:17:05 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 13:17:05 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at java.lang.reflect.Method.invoke(Method.java:498)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at java.lang.Thread.run(Thread.java:748)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | Caused by: io.mycat.config.util.ConfigException: java.lang.NullPointerException
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:121)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	... 7 more
+INFO   | jvm 1    | 2020/11/19 13:17:05 | Caused by: java.lang.NullPointerException
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.getDbType(XMLSchemaLoader.java:462)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadTables(XMLSchemaLoader.java:384)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadSchemas(XMLSchemaLoader.java:168)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:117)
+INFO   | jvm 1    | 2020/11/19 13:17:05 | 	... 13 more
+STATUS | wrapper  | 2020/11/19 13:17:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:17:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:17:44 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:17:44 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:17:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:17:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:17:44 | 
+INFO   | jvm 1    | 2020/11/19 13:17:45 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:28:12 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:28:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:28:14 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:28:15 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:28:15 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:28:15 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:28:15 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:28:15 | 
+INFO   | jvm 1    | 2020/11/19 13:28:16 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:41:51 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:41:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:41:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:41:54 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:41:54 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:41:54 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:41:54 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:41:54 | 
+INFO   | jvm 1    | 2020/11/19 13:41:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:45:10 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:45:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:45:12 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:45:13 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:45:13 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:45:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:45:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:45:13 | 
+INFO   | jvm 1    | 2020/11/19 13:45:14 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 13:56:55 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 13:56:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 13:56:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 13:56:57 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 13:56:58 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 13:56:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 13:56:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 13:56:58 | 
+INFO   | jvm 1    | 2020/11/19 13:56:59 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 14:13:22 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 14:13:23 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 14:13:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 14:13:25 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 14:13:25 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 14:13:25 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 14:13:25 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 14:13:25 | 
+INFO   | jvm 1    | 2020/11/19 14:13:26 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 14:21:04 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 14:21:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 14:21:06 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 14:21:06 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 14:21:06 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 14:21:07 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 14:21:07 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 
+INFO   | jvm 1    | 2020/11/19 14:21:07 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 14:21:07 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at java.lang.reflect.Method.invoke(Method.java:498)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at java.lang.Thread.run(Thread.java:748)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | Caused by: io.mycat.config.util.ConfigException: rule auto-sharding-long is not found!
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadTables(XMLSchemaLoader.java:341)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadSchemas(XMLSchemaLoader.java:168)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:117)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:78)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:82)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.MycatServer.<init>(MycatServer.java:166)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:109)
+INFO   | jvm 1    | 2020/11/19 14:21:07 | 	... 7 more
+STATUS | wrapper  | 2020/11/19 14:21:09 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 14:21:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 14:21:54 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 14:21:54 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 14:21:54 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 14:21:54 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 14:21:54 | 
+INFO   | jvm 1    | 2020/11/19 14:21:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 14:23:58 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 14:23:59 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 14:24:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 14:24:02 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 14:24:02 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 14:24:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 14:24:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 14:24:02 | 
+INFO   | jvm 1    | 2020/11/19 14:24:03 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 14:30:40 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 14:30:41 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 14:30:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 14:30:43 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 14:30:43 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 14:30:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 14:30:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 14:30:43 | 
+INFO   | jvm 1    | 2020/11/19 14:30:44 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:01:07 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:01:08 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:01:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:01:10 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:01:10 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:01:10 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:01:10 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:01:10 | 
+INFO   | jvm 1    | 2020/11/19 17:01:12 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:02:50 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:02:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:02:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:02:56 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:02:56 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:02:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:02:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:02:56 | 
+INFO   | jvm 1    | 2020/11/19 17:02:57 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:17:33 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:17:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:17:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:17:35 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:17:36 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:17:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:17:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:17:36 | 
+INFO   | jvm 1    | 2020/11/19 17:17:37 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:32:06 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:32:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:32:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:32:09 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:32:09 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:32:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:32:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:32:09 | 
+INFO   | jvm 1    | 2020/11/19 17:32:10 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:38:55 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:38:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:38:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:38:57 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:38:57 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:38:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:38:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:38:58 | 
+INFO   | jvm 1    | 2020/11/19 17:38:58 |  warn: bad line int autopartition-long.txt :
+INFO   | jvm 1    | 2020/11/19 17:38:59 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:39:11 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:39:12 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:39:13 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:39:13 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:39:14 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:39:14 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:39:14 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:39:14 | 
+INFO   | jvm 1    | 2020/11/19 17:39:15 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:45:36 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:45:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:45:38 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:45:39 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:45:39 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:45:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:45:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:45:39 | 
+INFO   | jvm 1    | 2020/11/19 17:45:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:47:27 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:47:28 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:47:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:47:29 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:47:29 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:47:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:47:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:47:30 | 
+INFO   | jvm 1    | 2020/11/19 17:47:31 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:50:53 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:50:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:50:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:50:56 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:50:56 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:50:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:50:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:50:56 | 
+INFO   | jvm 1    | 2020/11/19 17:50:57 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/11/19 17:54:35 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2020/11/19 17:54:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/11/19 17:54:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/11/19 17:54:38 | Launching a JVM...
+INFO   | jvm 1    | 2020/11/19 17:54:38 | OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64M; support was removed in 8.0
+INFO   | jvm 1    | 2020/11/19 17:54:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/11/19 17:54:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/11/19 17:54:38 | 
+INFO   | jvm 1    | 2020/11/19 17:54:39 | MyCAT Server startup successfully. see logs in logs/mycat.log

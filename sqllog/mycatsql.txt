@@ -1,0 +1,748 @@
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:select * from t1
+SELECT:select * from t1
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:select * from t1
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:select * from t1
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='3') LIMIT 1
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='4') LIMIT 1
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='5') LIMIT 1
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='6') LIMIT 1
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='7') LIMIT 1
+INSERT:INSERT INTO `orders` () VALUES ()
+SELECT:SELECT * FROM `orders` WHERE (`id`='8') LIMIT 1
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+INSERT:INSERT INTO `orders` (`title`) VALUES ('a1')
+SELECT:SELECT * FROM `orders` WHERE (`id`='3') LIMIT 1
+INSERT:INSERT INTO `orders` (`title`) VALUES ('b1')
+SELECT:SELECT * FROM `orders` WHERE (`id`='4') LIMIT 1
+INSERT:INSERT INTO `orders` (`title`) VALUES ('c1')
+SELECT:SELECT * FROM `orders` WHERE (`id`='5') LIMIT 1
+INSERT:INSERT INTO `orders` (`title`) VALUES ('d1')
+SELECT:SELECT * FROM `orders` WHERE (`id`='6') LIMIT 1
+SELECT:SELECT * from orders
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbb`.`orders` LIMIT 0
+SELECT:SELECT * from orders ORDER BY id
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dba`.`orders` LIMIT 0
+SELECT:SELECT * from orders ORDER BY id LIMIT 6
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders ORDER BY id WHERE title = 'dba1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders WHERE title = 'dba1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders WHERE title = 'dba1' ORDER BY id
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders WHERE title like '%dba%' ORDER BY id
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders WHERE title like '%dba%'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders WHERE title like '%dba%' ORDER BY id DESC
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders ORDER BY id DESC WHERE title like '%dba%'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders  WHERE title like '%dba%'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders  WHERE title like '%dba%' LIMIT 1
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:select * from t1
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:SELECT * from orders  WHERE title like '%dba%'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbb`.`orders` LIMIT 0
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:SELECT * from orders  WHERE title like '%dba%'EXPLAIN DELETE * from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+DELETE:DELETE * from orders where title ='tp51-t1'
+SELECT:SELECT * from orders  WHERE title like '%dba%'DELETE * from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+DELETE:DELETE * from orders where title ='tp51-t1'
+SELECT:SELECT * from orders
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+DELETE:DELETE from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbc`.`orders` LIMIT 0
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:SELECT * from orders  WHERE title like '%dba%' SELECT * from orders
+DELETE:DELETE from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbd`.`orders` LIMIT 0
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders  WHERE title like '%dba%' SELECT * from orders where title ='tp51-t1'
+DELETE:DELETE from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dba`.`orders` LIMIT 0
+SELECT:SELECT * from orders where title ='tp51-t1'
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbb`.`orders` LIMIT 0
+INSERT:INSERT into orders('title') VALUES('navicate-t1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:SELECT * from orders  WHERE title like '%dba%' SELECT * from orders where title ='tp51-t1'
+INSERT:INSERT into orders(ID,'title') VALUES( 1329302666471411713,'navicate-t1')
+SELECT:SELECT * FROM `dbb`.`orders` LIMIT 0
+INSERT:INSERT into orders(ID,'title') VALUES( 1329302683647086592,'navicate-t1')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `orders` ORDER BY `title` LIMIT 0, 1000
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+INSERT:insert into orders(ID,title) values( 1329303663994343425,'doubi1'),( 1329303663994343426,'doubi2'),( 1329303663994343427,'doubi3'),( 1329303663994343428,'yellowcong')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='12')
+DELETE:DELETE FROM `orders` WHERE (`id`='12')
+DELETE:DELETE FROM `orders` WHERE (`id`='6')
+DELETE:DELETE FROM `orders` WHERE (`id`='6')
+DELETE:DELETE FROM `orders` WHERE (`id`='11')
+DELETE:DELETE FROM `orders` WHERE (`id`='5')
+DELETE:DELETE FROM `orders` WHERE (`id`='11')
+DELETE:DELETE FROM `orders` WHERE (`id`='5')
+DELETE:DELETE FROM `orders` WHERE (`id`='10')
+DELETE:DELETE FROM `orders` WHERE (`id`='10')
+DELETE:DELETE FROM `orders` WHERE (`id`='4')
+DELETE:DELETE FROM `orders` WHERE (`id`='4')
+DELETE:DELETE FROM `orders` WHERE (`id`='9')
+DELETE:DELETE FROM `orders` WHERE (`id`='3')
+DELETE:DELETE FROM `orders` WHERE (`id`='9')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+DELETE:DELETE FROM `orders` WHERE (`id`='2')
+DELETE:DELETE FROM `orders` WHERE (`id`='12')
+DELETE:DELETE FROM `orders` WHERE (`id`='6')
+DELETE:DELETE FROM `orders` WHERE (`id`='6')
+DELETE:DELETE FROM `orders` WHERE (`id`='5')
+DELETE:DELETE FROM `orders` WHERE (`id`='11')
+DELETE:DELETE FROM `orders` WHERE (`id`='5')
+DELETE:DELETE FROM `orders` WHERE (`id`='4')
+DELETE:DELETE FROM `orders` WHERE (`id`='10')
+DELETE:DELETE FROM `orders` WHERE (`id`='4')
+DELETE:DELETE FROM `orders` WHERE (`id`='3')
+DELETE:DELETE FROM `orders` WHERE (`id`='9')
+SELECT:SELECT @@character_set_database, @@collation_database
+SELECT:select * from t1
+SELECT:select * from orders
+DELETE:DELETE FROM `t1` WHERE (`id`='20')
+DELETE:DELETE FROM `t1` WHERE (`id`='19')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+INSERT:INSERT INT orders('title') value('t1')
+INSERT:INSERT INT orders('title') value('t1')
+INSERT:INSERT INT orders('title') value('t1')
+INSERT:INSERT INT orders(id,'title') value(0,'t1')
+INSERT:INSERT INT orders('id','title') value(0,'t1')
+INSERT:INSERT INTO `orders` (ID,`title`) VALUES( 1329307246152257536,'t1')
+INSERT:INSERT INTO `orders` (`id`, `title`) VALUES ('1', 't1')
+SELECT:SELECT * FROM `orders` WHERE (`id`='1') LIMIT 1
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (ID,`title`) VALUES( 1329310900921962497,'tp51-t1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO orders(id, title) value(0,'t1')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+INSERT:INSERT INTO orders(id, title) value(0,'t1')
+INSERT:INSERT INTO orders(id, title) value(1,'t1')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+INSERT:INSERT INTO `orders` (`title`) VALUES ('tp51-t1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (ID,`title`) VALUES( 1329349014260420609,'tp51-t1')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+DELETE:DELETE FROM `orders` WHERE (`id`='1')
+INSERT:INSERT INTO `orders` (ID,`title`) VALUES( 1329349298638426112,'tp51-t1')
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 1001' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 1002' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10001' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10002' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10003' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10004' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10005' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10006' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10007' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10008' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10009' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10010' , 'tp51-t1')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10011' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10012' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10013' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10014' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10015' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 1003' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10016' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10017' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10018' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10019' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10020' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10021' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10022' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10023' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10024' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10025' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10026' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10027' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10028' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10029' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10030' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10031' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10032' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10033' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10034' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10035' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10036' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10037' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10038' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10039' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10040' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10041' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10042' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10043' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10044' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10045' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10046' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10047' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10048' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10049' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10050' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10051' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10052' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10053' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10054' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10055' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10056' , 'tp51-t1')
+INSERT:insert into orders(id,title) values( 10057,'HG-93')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+INSERT:insert into orders(id,title) values( 10058,'HG-93')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+INSERT:insert into orders(id,title) values( 10059,'HG-93')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+INSERT:insert into orders(id,title) values( 10060,'HG-93')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbd`.`orders` LIMIT 0
+SELECT:select * from orders
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10061' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10062' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10063' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10064' , 'tp51-t1')
+INSERT:INSERT INTO `orders` (`id` , `title`) VALUES (' 10065' , 'tp51-t1')
+INSERT:insert into t_user(id,name,age)values( 10073,'HG-93',23)
+INSERT:insert into t_user(id,name,age)values( 10074,'HG-93',23)
+INSERT:insert into orders(id,title)values( 10075,'tp-93')
+INSERT:insert into orders(id,title)values( 10076,'tp-93')
+INSERT:insert into orders(id,title)values( 10077,'tp-93')
+INSERT:insert into orders(id,title)values( 10078,'tp-93')
+INSERT:insert into orders(id,title)values( 10079,'tp-93')
+INSERT:insert into orders(id,title)values( 10080,'tp-93')
+INSERT:insert into orders(id,title)values( 10081,'tp-93')
+INSERT:insert into orders(id,title)values( 10082,'tp-93')
+INSERT:insert into orders(id,title)values( 10083,'tp-93')
+INSERT:insert into orders(id,title)values( 10084,'tp-93')
+INSERT:insert into orders(id,title)values( 10085,'tp-93')
+INSERT:insert into orders(id,title)values( 10086,'tp-93')
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10087,'tp-93')
+INSERT:insert into orders(id,title)values( 10088,'tp-93')
+INSERT:insert into orders(id,title)values( 10089,'tp-93')
+INSERT:insert into orders(id,title)values( 10090,'tp-93')
+INSERT:insert into orders(id,title)values( 10091,'tp-93')
+INSERT:insert into orders(id,title)values( 10092,'tp-93')
+INSERT:insert into orders(id,title)values( 10093,'tp-93')
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10094,'tp-93')
+INSERT:insert into orders(id,title)values( 10095,'tp-93')
+INSERT:insert into orders(id,title)values( 10096,'tp-93')
+INSERT:insert into orders(id,title)values( 10097,'tp-93')
+INSERT:insert into orders(id,title)values( 10098,'tp-93')
+INSERT:insert into orders(id,title)values( 10099,'tp-93')
+INSERT:insert into orders(id,title)values( 10100,'tp-93')
+INSERT:insert into orders(id,title)values( 10101,'tp-93')
+INSERT:insert into orders(id,title)values( 10102,'tp-93')
+INSERT:insert into orders(id,title)values( 10103,'tp-93')
+INSERT:insert into orders(id,title)values( 10104,'tp-93')
+INSERT:insert into orders(id,title)values( 10105,'tp-93')
+INSERT:insert into orders(id,title)values( 10106,'tp-93')
+INSERT:insert into orders(id,title)values( 10107,'tp-93')
+INSERT:insert into orders(id,title)values( 10108,'tp-93')
+INSERT:insert into orders(id,title)values( 10109,'tp-93')
+INSERT:insert into orders(id,title)values( 10110,'tp-93')
+INSERT:insert into orders(id,title)values( 10111,'tp-93')
+INSERT:insert into orders(id,title)values( 10112,'tp-93')
+INSERT:insert into orders(id,title)values( 10113,'tp-93')
+INSERT:insert into orders(id,title)values( 10114,'tp-93')
+INSERT:insert into orders(id,title)values( 10115,'tp-93')
+INSERT:insert into orders(id,title)values( 10116,'tp-93')
+INSERT:insert into orders(id,title)values( 10117,'tp-93')
+INSERT:insert into orders(id,title)values( 10118,'tp-93')
+INSERT:insert into orders(id,title)values( 10119,'tp-93')
+INSERT:insert into orders(id,title)values( 10120,'tp-93')
+INSERT:insert into orders(id,title)values( 10121,'tp-93')
+INSERT:insert into orders(id,title)values( 10122,'tp-93')
+INSERT:insert into orders(id,title)values( 10123,'tp-93')
+DELETE:DELETE * from orders
+DELETE:DELETE * from orders
+DELETE:DELETE * from orders WHERE id > 10000
+DELETE:DELETE from orders WHERE id > 10000
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * from orders
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dba`.`orders` LIMIT 0
+INSERT:insert into orders(id,title)values( 10001,'tp-93')
+INSERT:insert into orders(id,title)values( 10002,'tp-93')
+INSERT:insert into orders(id,title)values( 10003,'tp-93')
+INSERT:insert into orders(id,title)values( 10004,'tp-93')
+INSERT:insert into orders(id,title)values( 10005,'tp-93')
+INSERT:insert into orders(id,title)values( 10006,'tp-93')
+INSERT:insert into orders(id,title)values( 10007,'tp-93')
+INSERT:insert into orders(id,title)values( 10008,'tp-93')
+INSERT:insert into orders(id,title)values( 10009,'tp-93')
+INSERT:insert into orders(id,title)values( 10010,'tp-93')
+INSERT:insert into orders(id,title)values( 10011,'tp-93')
+SELECT:SELECT * from orders
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `dbb`.`orders` LIMIT 0
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10012,'tp-93')
+INSERT:insert into orders(id,title)values( 10013,'tp-93')
+INSERT:insert into orders(id,title)values( 10014,'tp-93')
+INSERT:insert into orders(id,title)values( 10015,'tp-93')
+INSERT:insert into orders(id,title)values( 10016,'tp-93')
+INSERT:insert into orders(id,title)values( 10017,'tp-93')
+INSERT:insert into orders(id,title)values( 10018,'tp-93')
+INSERT:insert into orders(id,title)values( 10019,'tp-93')
+INSERT:insert into orders(id,title)values( 10020,'tp-93')
+INSERT:insert into orders(id,title)values( 10021,'tp-93')
+INSERT:insert into orders(id,title)values( 10022,'tp-93')
+INSERT:insert into orders(id,title)values( 10023,'tp-93')
+INSERT:insert into orders(id,title)values( 10024,'tp-93')
+INSERT:insert into orders(id,title)values( 10025,'tp-93')
+INSERT:insert into orders(id,title)values( 10026,'tp-93')
+INSERT:insert into orders(id,title)values( 10027,'tp-93')
+INSERT:insert into orders(id,title)values( 10028,'tp-93')
+INSERT:insert into orders(id,title)values( 10029,'tp-93')
+SELECT:SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10015')
+DELETE:DELETE FROM `orders` WHERE (`id`='10029')
+DELETE:DELETE FROM `orders` WHERE (`id`='10028')
+DELETE:DELETE FROM `orders` WHERE (`id`='10027')
+DELETE:DELETE FROM `orders` WHERE (`id`='10026')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10001,'tp-93')
+INSERT:insert into orders(id,title)values( 10002,'tp-93')
+INSERT:insert into orders(id,title)values( 10003,'tp-93')
+INSERT:insert into orders(id,title)values( 10004,'tp-93')
+INSERT:insert into orders(id,title)values( 10005,'tp-93')
+INSERT:insert into orders(id,title)values( 10006,'tp-93')
+INSERT:insert into orders(id,title)values( 10007,'tp-93')
+INSERT:insert into orders(id,title)values( 10008,'tp-93')
+INSERT:insert into orders(id,title)values( 10009,'tp-93')
+INSERT:insert into orders(id,title)values( 10010,'tp-93')
+INSERT:insert into orders(id,title)values( 10011,'tp-93')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+INSERT:insert into orders(id,title)values( 10012,'tp-93')
+INSERT:insert into orders(id,title)values( 10013,'tp-93')
+INSERT:insert into orders(id,title)values( 10014,'tp-93')
+INSERT:insert into orders(id,title)values( 10015,'tp-93')
+INSERT:insert into orders(id,title)values( 10016,'tp-93')
+INSERT:insert into orders(id,title)values( 10017,'tp-93')
+INSERT:insert into orders(id,title)values( 10018,'tp-93')
+INSERT:insert into orders(id,title)values( 10019,'tp-93')
+INSERT:insert into orders(id,title)values( 10020,'tp-93')
+INSERT:insert into orders(id,title)values( 10021,'tp-93')
+INSERT:insert into orders(id,title)values( 10022,'tp-93')
+INSERT:insert into orders(id,title)values( 10023,'tp-93')
+INSERT:insert into orders(id,title)values( 10024,'tp-93')
+INSERT:insert into orders(id,title)values( 10025,'tp-93')
+INSERT:insert into orders(id,title)values( 10026,'tp-93')
+INSERT:insert into orders(id,title)values( 10027,'tp-93')
+INSERT:insert into orders(id,title)values( 10028,'tp-93')
+INSERT:insert into orders(id,title)values( 10029,'tp-93')
+INSERT:insert into orders(id,title)values( 10030,'tp-93')
+SELECT:SELECT * FROM `t1` LIMIT 0, 1000
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10001,'tp-93')
+INSERT:insert into orders(id,title)values( 10002,'tp-93')
+INSERT:insert into orders(id,title)values( 10003,'tp-93')
+INSERT:insert into orders(id,title)values( 10004,'tp-93')
+INSERT:insert into orders(id,title)values( 10005,'tp-93')
+INSERT:insert into orders(id,title)values( 10006,'tp-93')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+INSERT:insert into orders(id,title)values( 10007,'tp-93')
+INSERT:insert into orders(id,title)values( 10008,'tp-93')
+INSERT:insert into orders(id,title)values( 10009,'tp-93')
+INSERT:insert into orders(id,title)values( 10010,'tp-93')
+INSERT:insert into orders(id,title)values( 10011,'tp-93')
+INSERT:insert into orders(id,title)values( 10012,'tp-93')
+INSERT:insert into orders(id,title)values( 10013,'tp-93')
+INSERT:insert into orders(id,title)values( 10014,'tp-93')
+INSERT:insert into orders(id,title)values( 10015,'tp-93')
+INSERT:insert into orders(id,title)values( 10016,'tp-93')
+INSERT:insert into orders(id,title)values( 10017,'tp-93')
+INSERT:insert into orders(id,title)values( 10018,'tp-93')
+INSERT:insert into orders(id,title)values( 10019,'tp-93')
+INSERT:insert into orders(id,title)values( 10020,'tp-93')
+INSERT:insert into orders(id,title)values( 10021,'tp-93')
+INSERT:insert into orders(id,title)values( 10022,'tp-93')
+INSERT:insert into orders(id,title)values( 10023,'tp-93')
+INSERT:insert into orders(id,title)values( 10024,'tp-93')
+INSERT:insert into orders(id,title)values( 10025,'tp-93')
+INSERT:insert into orders(id,title)values( 10026,'tp-93')
+INSERT:insert into orders(id,title)values( 10027,'tp-93')
+INSERT:insert into orders(id,title)values( 10028,'tp-93')
+INSERT:insert into orders(id,title)values( 10029,'tp-93')
+INSERT:insert into orders(id,title)values( 10030,'tp-93')
+INSERT:insert into orders(id,title)values( 10031,'tp-93')
+INSERT:insert into orders(id,title)values( 10032,'tp-93')
+INSERT:insert into orders(id,title)values( 10033,'tp-93')
+SELECT:SELECT * FROM `orders` LIMIT 0, 1000
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10015')
+DELETE:DELETE FROM `orders` WHERE (`id`='10010')
+DELETE:DELETE FROM `orders` WHERE (`id`='10009')
+DELETE:DELETE FROM `orders` WHERE (`id`='10008')
+DELETE:DELETE FROM `orders` WHERE (`id`='10007')
+DELETE:DELETE FROM `orders` WHERE (`id`='10006')
+DELETE:DELETE FROM `orders` WHERE (`id`='10033')
+DELETE:DELETE FROM `orders` WHERE (`id`='10032')
+DELETE:DELETE FROM `orders` WHERE (`id`='10031')
+DELETE:DELETE FROM `orders` WHERE (`id`='10030')
+DELETE:DELETE FROM `orders` WHERE (`id`='10029')
+DELETE:DELETE FROM `orders` WHERE (`id`='10028')
+DELETE:DELETE FROM `orders` WHERE (`id`='10027')
+DELETE:DELETE FROM `orders` WHERE (`id`='10026')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+DELETE:DELETE FROM `orders` WHERE (`id`='10011')
+DELETE:DELETE FROM `orders` WHERE (`id`='10005')
+DELETE:DELETE FROM `orders` WHERE (`id`='10004')
+DELETE:DELETE FROM `orders` WHERE (`id`='10003')
+DELETE:DELETE FROM `orders` WHERE (`id`='10002')
+DELETE:DELETE FROM `orders` WHERE (`id`='10001')
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+DELETE:DELETE FROM `orders` WHERE (`id`='10011')
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+DELETE:DELETE FROM `orders` WHERE (`id`='10011')
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+DELETE:DELETE FROM `orders` WHERE (`id`='10011')
+DELETE:DELETE FROM `orders` WHERE (`id`='10025')
+DELETE:DELETE FROM `orders` WHERE (`id`='10024')
+DELETE:DELETE FROM `orders` WHERE (`id`='10023')
+DELETE:DELETE FROM `orders` WHERE (`id`='10022')
+DELETE:DELETE FROM `orders` WHERE (`id`='10021')
+DELETE:DELETE FROM `orders` WHERE (`id`='10020')
+DELETE:DELETE FROM `orders` WHERE (`id`='10019')
+DELETE:DELETE FROM `orders` WHERE (`id`='10018')
+DELETE:DELETE FROM `orders` WHERE (`id`='10017')
+DELETE:DELETE FROM `orders` WHERE (`id`='10016')
+DELETE:DELETE FROM `orders` WHERE (`id`='10014')
+DELETE:DELETE FROM `orders` WHERE (`id`='10013')
+DELETE:DELETE FROM `orders` WHERE (`id`='10012')
+DELETE:DELETE FROM `orders` WHERE (`id`='10011')
+SELECT:select * from orders
+INSERT:insert into orders(id,title)values( 10001,'tp-93')
+INSERT:insert into orders(id,title)values( 10002,'tp-93')
+INSERT:insert into orders(id,title)values( 10003,'tp-93')
+INSERT:insert into orders(id,title)values( 10004,'tp-93')
+INSERT:insert into orders(id,title)values( 10005,'tp-93')
+INSERT:insert into orders(id,title)values( 10006,'tp-93')
+INSERT:insert into orders(id,title)values( 10007,'tp-93')
+INSERT:insert into orders(id,title)values( 10008,'tp-93')
+INSERT:insert into orders(id,title)values( 10009,'tp-93')
+INSERT:insert into orders(id,title)values( 10010,'tp-93')
+INSERT:insert into orders(id,title)values( 10011,'tp-93')
+INSERT:insert into orders(id,title)values( 10012,'tp-93')
+INSERT:insert into orders(id,title)values( 10013,'tp-93')
+INSERT:insert into orders(id,title)values( 10014,'tp-93')
+INSERT:insert into orders(id,title)values( 10015,'tp-93')
+INSERT:insert into orders(id,title)values( 10016,'tp-93')
+INSERT:insert into orders(id,title)values( 10017,'tp-93')
+INSERT:insert into orders(id,title)values( 10018,'tp-93')
+INSERT:insert into orders(id,title)values( 10019,'tp-93')
+INSERT:insert into orders(id,title)values( 10020,'tp-93')
+INSERT:insert into orders(id,title)values( 10021,'tp-93')
+INSERT:insert into orders(id,title)values( 10022,'tp-93')
+INSERT:insert into orders(id,title)values( 10023,'tp-93')
+INSERT:insert into orders(id,title)values( 10024,'tp-93')
+INSERT:insert into orders(id,title)values( 10025,'tp-93')
+INSERT:insert into orders(id,title)values( 10026,'tp-93')
+INSERT:insert into orders(id,title)values( 10027,'tp-93')
+INSERT:insert into orders(id,title)values( 10028,'tp-93')
+INSERT:insert into orders(id,title)values( 10029,'tp-93')
+INSERT:insert into orders(id,title)values( 10030,'tp-93')
+INSERT:insert into orders(id,title)values( 10031,'tp-93')
+INSERT:insert into orders(id,title)values( 10032,'tp-93')
+INSERT:insert into orders(id,title)values( 10033,'tp-93')
+INSERT:insert into orders(id,title)values( 10034,'tp-93')
+INSERT:insert into orders(id,title)values( 10035,'tp-93')
+INSERT:insert into orders(id,title)values( 10036,'tp-93')
+INSERT:insert into orders(id,title)values( 10037,'tp-93')
+INSERT:insert into orders(id,title)values( 10038,'tp-93')
+INSERT:insert into orders(id,title)values( 10039,'tp-93')
+INSERT:insert into orders(id,title)values( 10040,'tp-93')
+INSERT:insert into orders(id,title)values( 10041,'tp-93')
+INSERT:insert into orders(id,title)values( 10042,'tp-93')
+INSERT:insert into orders(id,title)values( 10043,'tp-93')
+INSERT:insert into orders(id,title)values( 10044,'tp-93')
+INSERT:insert into orders(id,title)values( 10045,'tp-93')
+INSERT:insert into orders(id,title)values( 10046,'tp-93')
+INSERT:insert into orders(id,title)values( 10047,'tp-93')
+INSERT:insert into orders(id,title)values( 10048,'tp-93')
+INSERT:insert into orders(id,title)values( 10049,'tp-93')
+INSERT:insert into orders(id,title)values( 10050,'tp-93')
+INSERT:insert into orders(id,title)values( 10051,'tp-93')
+INSERT:insert into orders(id,title)values( 10052,'tp-93')
+INSERT:insert into orders(id,title)values( 10053,'tp-93')

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+
+	<schema name="TESTDB" checkSQLschema="false" sqlMaxLimit="100">
+		<table name="t1" primaryKey="id" dataNode="dn1" />
+		<table name="orders" primaryKey="id"  dataNode="order1,order2,order3,order4"  rule="auto-sharding-long"/>
+	</schema> <!--  autoIncrement="true" -->
+
+	<dataNode name="dn1" dataHost="localhost1" database="dbmaster" />
+	
+	<!-- dn2, dn3 -->
+	<dataNode name="order1" dataHost="localhost12" database="dba" />
+	<dataNode name="order2" dataHost="localhost12" database="dbb" />
+	<dataNode name="order3" dataHost="localhost13" database="dbc" />
+	<dataNode name="order4" dataHost="localhost13" database="dbd" />
+	
+	<!-- dn2, dn3 -->
+	
+	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="192.168.88.11:3306" user="root" password="134">
+			<!-- can have multi read hosts -->
+			<readHost host="hostS2" url="192.168.88.12:3306" user="root" password="134" />
+			<readHost host="hostS3" url="192.168.88.13:3306" user="root" password="134" />
+		</writeHost>
+				
+	</dataHost>
+
+	<!-- dn2, dn3 -->
+	<dataHost name="localhost12" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="dba" url="192.168.88.12:3306" user="root" password="134">
+		</writeHost>
+
+	</dataHost>
+	<!-- dn2, dn3 -->
+
+	<!-- dn2, dn3 -->
+	<dataHost name="localhost13" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="dbc" url="192.168.88.13:3306" user="root" password="134">
+		</writeHost>
+
+	</dataHost>
+	<!-- dn2, dn3 -->
+
+</mycat:schema>

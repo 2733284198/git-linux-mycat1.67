@@ -1,0 +1,8 @@
+
+<property name="sqlInterceptor">
+			io.mycat.server.interceptor.impl.StatisticsSqlInterceptor
+		</property>
+		<property name="sqlInterceptorType">
+			UPDATE,DELETE,INSERT
+		</property>
+		<property name="sqlInterceptorFile">/tmp/sql.txt</property>
